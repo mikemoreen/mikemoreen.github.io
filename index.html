@@ -1,113 +1,234 @@
-
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <meta charset = "utf-8">
-    <meta property="cv" content="mikemoreen" />
-    <meta property="title" content="Ivankov Vladislav CV" />
+<!DOCTYPE html>
+<html dir="auto" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ivankov Vladislav CV</title>
-</head>
-<body>
-<h1>Ivankov Vladislav CV</h1>
-    <hr>
-<table>
-    <tr><td colspan="2">PERSONAL INFORMATION</td></tr>
-    <tr><td width="50%">Address</td><td>Saint-Petersburg</td></tr>
-    <tr><td>Birth</td><td>14.09.1999 Orsk</td></tr>
-    <tr><td>Nationality</td><td>Russian</td></tr>
-    <tr><td>Hobbies</td><td>Programming, Games, Reading</td></tr>
-</table>
-<hr>
-<table>
-    <tr><td colspan="2">SOCIAL PROFILES</td></tr>
-    <tr><td width="50%">Github</td><td><a href="https://github.com/mikemoreen">github.com/mikemoreen</a></td></tr>
-    <tr><td width="50%">Telegram</td><td><a href="https://t.me/mikemoreen">@mikemoreen</a></td></tr>
-    <tr><td width="50%">Gmail</td><td><a href="mailto:vlad.ivankov.96@gmail.com">vlad.ivankov.96@gmail.com</a></td></tr>
-</table>
-<hr>
-<table>
-    <tr><td colspan="2">LANGUAGES</td></tr>
-    <tr><td width="50%">Russian</td><td>Native speaker</td></tr>
-    <tr><td>English</td><td>B2</td></tr>
-</table>
-<hr>
-<table>
-    <tr>
-        <td colspan="2">EXPERIENCE: Tinkoff fintech (February 2022 - June 2022)</td>
-        <tr><td>&bull;</td><td>made layouts from figma</td></tr>
-        <tr><td>&bull;</td><td>developed MVP (mini internet bank)</td></tr>
-        <tr><td>&bull;</td><td>config CI</td></tr>
-        <tr><td>&bull;</td><td>сonfigured the routing in the application with react-router</td></tr>
-        <tr><td>&bull;</td><td>worked with TypeScript and Redux</td></tr>
-        <tr><td>&bull;</td><td>course work <a href="https://github.com/mikemoreen/movie-app">movie-app</a></td></tr>
-    </tr>
-</table>
-<hr>
-<table>
-    <tr><td colspan="2">SKILLS</td></tr>
-    <tr><td>&bull;</td><td>TypeScript, JavaScript (ES6+), ReactJS, Redux</td></tr>
-    <tr><td>&bull;</td><td>HTML, CSS, Bootstrap</td></tr>
-    <tr><td>&bull;</td><td>Webpack, Babel</td></tr>
-    <tr><td>&bull;</td><td>ESLint, Prettier, Stylelint</td></tr>
-    <tr><td>&bull;</td><td>Git, GitHub</td></tr>
-    <tr><td>&bull;</td><td>i18next, Lodash, On-change, Yup, Jest, Axios</td></tr>
-    <tr><td>&bull;</td><td>MongoDB, Express, Heroku, Netlify, Vercel</td></tr>
-</table>
-<hr>
-<table>
-    <tr>
-        <td colspan="2">PROJECTS</td>
-    </tr>
-    <tr>
-        <td>&bull;</td>
-        <td>
-            <a href="https://github.com/mikemoreen/rss-reader">RSS Reader</a> - service for aggregating RSS feeds.
-            The service validates the form, performs an Ajax request using Axios,
-            parses and renders the data, handles errors and updates feeds asynchronously.
-            The project runs tests and ESLint on GitHub Actions, and then the project is deployed to Vercel.
-            The i18next library is used for texts, for On-change state tracking. The MVC pattern was used during development.
-            Bootstrap was used for the layout, building was done with Webpack.
-        </td>
-    </tr>
-    <tr>
-        <td>&bull;</td>
-        <td>
-            <a href="https://github.com/mikemoreen/difference-finder">Difference finder</a> 
-            - is a console program that finds the difference between two data structures. 
-            The utility takes json or yml(yaml) data and outputs it in one of three formats: stylish, plain or json.
-            The project was developed using tests (TDD) and the Jest framework. Tests and ESLint run on GitHub Actions.
-            Code cleanliness and test coverage is checked with Code Climate. The program works with trees (file system).
-        </td>
-    </tr>
-    <tr>
-        <td>&bull;</td>
-        <td>
-            <a href="https://github.com/mikemoreen/math-game">Math-game</a> - is a console utility containing of 5 math games.
-            Skills gained:
-            Setting up a working environment (NodeJS, NPM, ESLint, Makefile).
-            Working with Git (including setting up Github Actions).
-            Publishing and local installation of the npm package.
-            Creating console game architecture based on a single engine.
-        </td>
-    </tr>
-    <tr>
-        <td>&bull;</td>
-        <td>
-            <a href="https://github.com/mikemoreen/movie-app">Movie-app</a> - an app for true movie fans.
-            Create various lists and add movies to them. The app allows you to share movies with your friends and everyone else.
-            The main functions: register a personal account and authorization, CRUD, write comments, add your 
-            favorite works to your favorites.
-            Frontend: React, React-Router, React-Redux Deploy: Netlify.
-            Backend: MongoDB, Express, NodeJS, Deploy: Heroku.
-        </td>
-    </tr>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <style>
+      .main {
+        max-width: calc(var(--main-width) + var(--gap) * 14) !important;
+      }
+      article.first-entry {
+        justify-content: inherit;
+        min-height: auto;
+      }
+    </style> -->
+  </head>
+  <body id="top">
+    <main class="main">
+      <article class="post-single">
+        <header class="post-header">
+          <h1 class="post-title">Ivankov Vladislav CV</h1>
+          <hr />
+          <div class="post-meta"></div>
+          <div class="communication-flex">
+            <a href="https://github.com/mikemoreen">github.com/mikemoreen</a>
+            <a href="https://t.me/mikemoreen">@mikemoreen</a>
+            <a>vlad.ivankov.96@gmail.com</a>
+          </div>
+        </header>
 
-</table>
-<hr>
-<table>
-    <tr><td colspan="2">EDUCATION</td></tr>
-    <tr><td width="20%">September 2017 – ongoing</td><td>SPbGUT, <a href="https://ru.hexlet.io">Hexlet</a></td></tr>
-</table>
-</body>
+        <div class="post-content">
+          <table>
+            <tr>
+              <td colspan="2">PERSONAL INFORMATION</td>
+            </tr>
+            <tr>
+              <td width="50%">Address</td>
+              <td>Saint Petersburg</td>
+            </tr>
+            <tr>
+              <td>Birth</td>
+              <td>14.09.1999 Orsk</td>
+            </tr>
+            <tr>
+              <td>Languages</td>
+              <td>Russian, English(B2)</td>
+            </tr>
+            <tr>
+              <td>Hobbies</td>
+              <td>Functional programming, Games, Reading, Fitness</td>
+            </tr>
+          </table>
+
+          <table>
+            <tr>
+              <td colspan="2">SKILLS</td>
+            </tr>
+
+            <tr>
+              <td>Programming languages</td>
+              <td>TypeScript, JavaScript (ES6+)</td>
+            </tr>
+
+            <tr>
+              <td>UI</td>
+              <td>
+                ReactJS, HTML, CSS, Bootstrap, Tailwind, AntD, Material UI
+              </td>
+            </tr>
+
+            <tr>
+              <td>State managment</td>
+              <td>Redux, MobX</td>
+            </tr>
+
+            <tr>
+              <td>DB</td>
+              <td>PostgreSQL, MongoDB</td>
+            </tr>
+
+            <tr>
+              <td>Backend</td>
+              <td>Express, NodeJS</td>
+            </tr>
+
+            <tr>
+              <td>Others</td>
+              <td>
+                Python, Webpack, ESLint, CI/CD, Git, i18next, Lodash, On-change,
+                Yup, Jest, Axios, Heroku, Vercel, Jira
+              </td>
+            </tr>
+          </table>
+
+
+
+
+          <table>
+            <tr>
+              <td colspan="2">WORK EXPERIENCE (1 year)</td>
+            </tr>
+
+
+            <tr>
+              <td width="20%">05/2022 - now</td>
+              <td>Desire</td>
+              <td>
+                <ul>
+                  
+                  <li>
+                    implemented saving data to the database and sending sms after validation
+                  </li>
+                  <li>created a personal account of the client and integrated it with the Wallet</li>
+
+                  <li>automated the process of calculating points and the level of discounts</li>
+
+                  <li>made the admin panel and the ability to change privileges manually</li>
+
+                  <li>Stack: PHP, Laravel, JS, HTML, CSS</li>
+                </ul>
+              </td>
+            </tr>
+
+
+
+            <tr>
+              <td width="20%">02/2022 - 05/2022</td>
+              <td>Tinkoff fintech</td>
+              <td>
+                <ul>
+
+                  <li>
+                    developing application prototype (mini internet bank)
+                  </li>
+                  <li>
+                    made layouts from figma
+                  </li>
+
+                  <li>setting up CI/CD processes</li>
+                  <li>
+                    add in project Typescript and Redux
+                  </li>
+                  <li>testing and deploying</li>
+                  
+
+                </ul>
+              </td>
+            </tr>
+
+          </table>
+
+
+
+
+          <table>
+            <tr>
+              <td colspan="2">EDUCATION</td>
+            </tr>
+            <tr>
+              <td width="80%">SPbGUT 2017 – 2021 Bachelor degree</td>
+            </tr>
+            <tr>
+              <td>Hexlet</td>
+            </tr>
+          </table>
+
+          <table>
+            <tr>
+              <td colspan="2">PROJECTS</td>
+            </tr>
+
+            <tr>
+              <td width="20%">
+                <a href="https://github.com/mikemoreen/rss-reader">rss-reader</a>
+              </td>
+              <td>
+                Service for aggregating RSS feeds. JS (yup, axios, onChange, i18next), Jest, Webpack, Bootstrap
+              </td>
+            </tr>
+
+            <tr>
+              <td width="20%">
+                <a href="https://github.com/mikemoreen/movie-app">movie-app</a>
+              </td>
+              <td>
+                The app allows you to share movies with your friends and everyone else.
+                JS, React, Redux, MongoDB, Express, NodeJS
+              </td>
+            </tr>
+
+
+            <tr>
+              <td width="20%">
+                <a href="https://github.com/mikemoreen/difference-finder"
+                  >difference-finder</a
+                >
+              </td>
+              <td>
+                console program that finds the difference between two data structures.
+                JS (Lodash, Commander), ESLint, Jest
+              </td>
+            </tr>
+            <tr>
+              <td width="20%">
+                <a href="https://github.com/mikemoreen/math-game"
+                  >math-game</a
+                >
+              </td>
+              <td>console utility containing of 5 math games. JS, ESLint, Jest, NPM, CI/CD</td>
+            </tr>
+
+            <tr>
+              <td width="20%">
+                <a href="https://github.com/mikemoreen/todo-app"
+                  >todo-app</a
+                >
+              </td>
+              <td>
+                app for practice in different technologies. TS, React, Redux, Tailwind
+              </td>
+            </tr>
+            
+            
+            
+            
+          </table>
+        </div>
+      </article>
+    </main>
+  
+  </body>
 </html>
-
